@@ -1,0 +1,39 @@
+.header {
+    background: black;
+    height: 80px;
+    display: flex;
+}
+
+.logoName {
+    position: relative;
+    bottom: -20%;
+    left: 3%;
+}
+
+.logoName span {
+    color: deepskyblue;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.navLink {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 140%;
+    padding: 0 15%;
+}
+
+nav {
+    position: relative;
+    left: 10%;
+    bottom: -25%;
+    display: flex;
+}
+
+.navLink:hover {
+    background: #282c34;
+}
+
+.active {
+    color: deepskyblue;
+}

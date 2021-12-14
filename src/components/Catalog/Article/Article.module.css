@@ -1,0 +1,44 @@
+.articleBox {
+    width: 300px;
+    background: lightslategrey;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.link span:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.articleImage img {
+    width: 100%;
+    height: 230px;
+}
+
+.articleTitle {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 130%;
+    flex-grow: 1;
+}
+
+.articleDescription {
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.linkBox {
+    text-align: center;
+    margin: 5% 0;
+}

@@ -1,0 +1,20 @@
+.catalogBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form {
+    margin: 1% 40%;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid deepskyblue;
+}
+
+.searchInput:hover {
+    cursor: pointer;
+}
